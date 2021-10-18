@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+  height: 100%;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  background: url(images/bg-desktop.svg), hsl(257, 40%, 49%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#cta {
+  color: white;
+}
+#cta-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  height: 20px;
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px 40px 10px 40px;
+  background-color: white;
+  border: 0;
+  color: hsl(257, 40%, 49%);
+  box-shadow: black;
+}
+
+button:hover {
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+article {
+  color: white;
+  position: relative;
+}
+
+#mockupbox {
+  position: relative;
+  height: 0px;
+}
+
+footer {
+  margin-top: auto;
+  min-height: 100px;
+}
+
+#description {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
